@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D99554301B05EB3D00131978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D995542F1B05EB3D00131978 /* main.m */; };
+		D99554331B05EB3D00131978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D99554321B05EB3D00131978 /* AppDelegate.m */; };
+		D99554361B05EB3D00131978 /* iFridge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D99554341B05EB3D00131978 /* iFridge.xcdatamodeld */; };
+		D995543C1B05EB3D00131978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D995543A1B05EB3D00131978 /* Main.storyboard */; };
+		D995543E1B05EB3D00131978 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D995543D1B05EB3D00131978 /* Images.xcassets */; };
+		D99554411B05EB3D00131978 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D995543F1B05EB3D00131978 /* LaunchScreen.xib */; };
+		D995544D1B05EB3D00131978 /* iFridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D995544C1B05EB3D00131978 /* iFridgeTests.m */; };
+		D9AD0BE91B05EEEB00B0F656 /* DataSourse.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BE81B05EEEB00B0F656 /* DataSourse.m */; };
+		D9AD0BEC1B05F31400B0F656 /* RecipesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BEB1B05F31400B0F656 /* RecipesTableViewController.m */; };
+		D9AD0BEF1B05FBF300B0F656 /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BEE1B05FBF300B0F656 /* Ingredient.m */; };
+		D9AD0BF21B05FBF400B0F656 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BF11B05FBF400B0F656 /* Recipe.m */; };
+		D9AD0BF61B05FC5C00B0F656 /* Recipe+Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BF51B05FC5C00B0F656 /* Recipe+Cat.m */; };
+		D9AD0BF91B0602A800B0F656 /* Ingredient+Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0BF81B0602A800B0F656 /* Ingredient+Cat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D99554471B05EB3D00131978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D99554221B05EB3D00131978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D99554291B05EB3D00131978;
+			remoteInfo = iFridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D995542A1B05EB3D00131978 /* iFridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D995542E1B05EB3D00131978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995542F1B05EB3D00131978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D99554311B05EB3D00131978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D99554321B05EB3D00131978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D99554351B05EB3D00131978 /* iFridge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFridge.xcdatamodel; sourceTree = "<group>"; };
+		D995543B1B05EB3D00131978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D995543D1B05EB3D00131978 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D99554401B05EB3D00131978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D99554461B05EB3D00131978 /* iFridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D995544B1B05EB3D00131978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995544C1B05EB3D00131978 /* iFridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFridgeTests.m; sourceTree = "<group>"; };
+		D9AD0BE71B05EEEB00B0F656 /* DataSourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSourse.h; path = ../DataSourse.h; sourceTree = "<group>"; };
+		D9AD0BE81B05EEEB00B0F656 /* DataSourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSourse.m; path = ../DataSourse.m; sourceTree = "<group>"; };
+		D9AD0BEA1B05F31400B0F656 /* RecipesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewController.h; sourceTree = "<group>"; };
+		D9AD0BEB1B05F31400B0F656 /* RecipesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewController.m; sourceTree = "<group>"; };
+		D9AD0BED1B05FBF300B0F656 /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		D9AD0BEE1B05FBF300B0F656 /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		D9AD0BF01B05FBF400B0F656 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		D9AD0BF11B05FBF400B0F656 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		D9AD0BF41B05FC5C00B0F656 /* Recipe+Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Recipe+Cat.h"; sourceTree = "<group>"; };
+		D9AD0BF51B05FC5C00B0F656 /* Recipe+Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Recipe+Cat.m"; sourceTree = "<group>"; };
+		D9AD0BF71B0602A800B0F656 /* Ingredient+Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ingredient+Cat.h"; sourceTree = "<group>"; };
+		D9AD0BF81B0602A800B0F656 /* Ingredient+Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ingredient+Cat.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99554271B05EB3D00131978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99554431B05EB3D00131978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D99554211B05EB3D00131978 = {
+			isa = PBXGroup;
+			children = (
+				D995542C1B05EB3D00131978 /* iFridge */,
+				D99554491B05EB3D00131978 /* iFridgeTests */,
+				D995542B1B05EB3D00131978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D995542B1B05EB3D00131978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D995542A1B05EB3D00131978 /* iFridge.app */,
+				D99554461B05EB3D00131978 /* iFridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D995542C1B05EB3D00131978 /* iFridge */ = {
+			isa = PBXGroup;
+			children = (
+				D99554311B05EB3D00131978 /* AppDelegate.h */,
+				D99554321B05EB3D00131978 /* AppDelegate.m */,
+				D9AD0BE71B05EEEB00B0F656 /* DataSourse.h */,
+				D9AD0BE81B05EEEB00B0F656 /* DataSourse.m */,
+				D9AD0BEA1B05F31400B0F656 /* RecipesTableViewController.h */,
+				D9AD0BEB1B05F31400B0F656 /* RecipesTableViewController.m */,
+				D995543A1B05EB3D00131978 /* Main.storyboard */,
+				D995543D1B05EB3D00131978 /* Images.xcassets */,
+				D995543F1B05EB3D00131978 /* LaunchScreen.xib */,
+				D9AD0BF31B05FC0000B0F656 /* CoreData */,
+				D995542D1B05EB3D00131978 /* Supporting Files */,
+			);
+			path = iFridge;
+			sourceTree = "<group>";
+		};
+		D995542D1B05EB3D00131978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D995542E1B05EB3D00131978 /* Info.plist */,
+				D995542F1B05EB3D00131978 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D99554491B05EB3D00131978 /* iFridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D995544C1B05EB3D00131978 /* iFridgeTests.m */,
+				D995544A1B05EB3D00131978 /* Supporting Files */,
+			);
+			path = iFridgeTests;
+			sourceTree = "<group>";
+		};
+		D995544A1B05EB3D00131978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D995544B1B05EB3D00131978 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9AD0BF31B05FC0000B0F656 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D99554341B05EB3D00131978 /* iFridge.xcdatamodeld */,
+				D9AD0BF01B05FBF400B0F656 /* Recipe.h */,
+				D9AD0BF11B05FBF400B0F656 /* Recipe.m */,
+				D9AD0BF41B05FC5C00B0F656 /* Recipe+Cat.h */,
+				D9AD0BF51B05FC5C00B0F656 /* Recipe+Cat.m */,
+				D9AD0BED1B05FBF300B0F656 /* Ingredient.h */,
+				D9AD0BEE1B05FBF300B0F656 /* Ingredient.m */,
+				D9AD0BF71B0602A800B0F656 /* Ingredient+Cat.h */,
+				D9AD0BF81B0602A800B0F656 /* Ingredient+Cat.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99554291B05EB3D00131978 /* iFridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99554501B05EB3D00131978 /* Build configuration list for PBXNativeTarget "iFridge" */;
+			buildPhases = (
+				D99554261B05EB3D00131978 /* Sources */,
+				D99554271B05EB3D00131978 /* Frameworks */,
+				D99554281B05EB3D00131978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFridge;
+			productName = iFridge;
+			productReference = D995542A1B05EB3D00131978 /* iFridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D99554451B05EB3D00131978 /* iFridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99554531B05EB3D00131978 /* Build configuration list for PBXNativeTarget "iFridgeTests" */;
+			buildPhases = (
+				D99554421B05EB3D00131978 /* Sources */,
+				D99554431B05EB3D00131978 /* Frameworks */,
+				D99554441B05EB3D00131978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99554481B05EB3D00131978 /* PBXTargetDependency */,
+			);
+			name = iFridgeTests;
+			productName = iFridgeTests;
+			productReference = D99554461B05EB3D00131978 /* iFridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99554221B05EB3D00131978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vladius;
+				TargetAttributes = {
+					D99554291B05EB3D00131978 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D99554451B05EB3D00131978 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D99554291B05EB3D00131978;
+					};
+				};
+			};
+			buildConfigurationList = D99554251B05EB3D00131978 /* Build configuration list for PBXProject "iFridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D99554211B05EB3D00131978;
+			productRefGroup = D995542B1B05EB3D00131978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99554291B05EB3D00131978 /* iFridge */,
+				D99554451B05EB3D00131978 /* iFridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99554281B05EB3D00131978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995543C1B05EB3D00131978 /* Main.storyboard in Resources */,
+				D99554411B05EB3D00131978 /* LaunchScreen.xib in Resources */,
+				D995543E1B05EB3D00131978 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99554441B05EB3D00131978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99554261B05EB3D00131978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AD0BEF1B05FBF300B0F656 /* Ingredient.m in Sources */,
+				D9AD0BF21B05FBF400B0F656 /* Recipe.m in Sources */,
+				D9AD0BF61B05FC5C00B0F656 /* Recipe+Cat.m in Sources */,
+				D99554331B05EB3D00131978 /* AppDelegate.m in Sources */,
+				D99554301B05EB3D00131978 /* main.m in Sources */,
+				D9AD0BEC1B05F31400B0F656 /* RecipesTableViewController.m in Sources */,
+				D9AD0BE91B05EEEB00B0F656 /* DataSourse.m in Sources */,
+				D9AD0BF91B0602A800B0F656 /* Ingredient+Cat.m in Sources */,
+				D99554361B05EB3D00131978 /* iFridge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99554421B05EB3D00131978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995544D1B05EB3D00131978 /* iFridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D99554481B05EB3D00131978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D99554291B05EB3D00131978 /* iFridge */;
+			targetProxy = D99554471B05EB3D00131978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D995543A1B05EB3D00131978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D995543B1B05EB3D00131978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D995543F1B05EB3D00131978 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99554401B05EB3D00131978 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D995544E1B05EB3D00131978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D995544F1B05EB3D00131978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D99554511B05EB3D00131978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iFridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D99554521B05EB3D00131978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iFridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D99554541B05EB3D00131978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iFridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFridge.app/iFridge";
+			};
+			name = Debug;
+		};
+		D99554551B05EB3D00131978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iFridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFridge.app/iFridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99554251B05EB3D00131978 /* Build configuration list for PBXProject "iFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D995544E1B05EB3D00131978 /* Debug */,
+				D995544F1B05EB3D00131978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99554501B05EB3D00131978 /* Build configuration list for PBXNativeTarget "iFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99554511B05EB3D00131978 /* Debug */,
+				D99554521B05EB3D00131978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99554531B05EB3D00131978 /* Build configuration list for PBXNativeTarget "iFridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99554541B05EB3D00131978 /* Debug */,
+				D99554551B05EB3D00131978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D99554341B05EB3D00131978 /* iFridge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D99554351B05EB3D00131978 /* iFridge.xcdatamodel */,
+			);
+			currentVersion = D99554351B05EB3D00131978 /* iFridge.xcdatamodel */;
+			path = iFridge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D99554221B05EB3D00131978 /* Project object */;
+}
